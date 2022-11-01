@@ -10,4 +10,26 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+- Clone [this repository](https://github.com/ObelusFamily/Anythink-Market-sqaye)
+  ```
+  git clone https://github.com/ObelusFamily/Anythink-Market-sqaye.git
+  ```
+- To get started, Make sure you have [Docker](https://docs.docker.com/get-docker/) installed:
+  ```
+  https://docs.docker.com/get-docker/
+  ```
+  To check if setup was successful, run:
+  ```
+  docker-v
+  ```
+  And,
+
+  ```
+  docker-compose-v
+  ```
+  To load Anythink's Backend and frontend,from the root directory run: 
+
+  ```
+  docker-compose up
+  ```
+  Open the browser with `http://localhost:3000/api/ping`
